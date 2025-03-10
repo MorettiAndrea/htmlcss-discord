@@ -97,7 +97,7 @@ header .header-top .box-login {
 }
 
 .header-bottom {
-  background-image: url(./img/immagine-header.png);
+  background-image: url(./imgs/immagine-header.png);
   background-position: 100%;
   background-size: 105%;
   height: 500px;
@@ -124,10 +124,7 @@ header .header-top .box-login {
 
 /* main */
 
-/* prima-terza tabella */
-.top-main * {
-  border: 2px dashed black;
-}
+/* prima tabella */
 .top-main > .layout-tabella-grande {
   background-position: 100%;
   background-size: 105%;
@@ -136,7 +133,7 @@ header .header-top .box-login {
   background-color: #ffbdc6;
 }
 
-/* fine prima-terza tabella */
+/* fine prima tabella */
 
 /* seconda tabella */
 .reverse-table {
@@ -153,6 +150,20 @@ header .header-top .box-login {
   background-color: #ffbdc6;
 }
 /* fine seconda tabella */
+
+/* terza tabella */
+.copy-main * {
+  border: 2px dashed black;
+}
+.top-main > .layout-tabella-grande {
+  background-position: 100%;
+  background-size: 105%;
+}
+.copy-main > .layout-tabella-piccola {
+  background-color: #ffbdc6;
+}
+
+/*  fine terza */
 
 /* quarta tabella */
 .gigant-table {
