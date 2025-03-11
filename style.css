@@ -84,6 +84,9 @@ p {
 .scritte-blu {
   color: #628cf7;
 }
+i {
+  color: white;
+}
 /* /utility */
 
 /* header */
@@ -205,6 +208,7 @@ li {
 .background-stelline {
   background-image: url(./imgs/stars.svg);
   background-size: 100%;
+  background-repeat: no-repeat;
   background-position-x: 0%;
   background-position-y: 0%;
 }
@@ -254,7 +258,6 @@ footer {
 }
 .bandiera-Italia {
   display: inline;
-  height: 20px;
   width: 30px;
 }
 .tabella-sezionata-grande > h3 {
@@ -264,6 +267,11 @@ footer {
 .tabella-sezionata-grande > p {
   color: white;
 }
+
+.colonna-icone * {
+  padding: 5px 0;
+}
+
 .footer-bottom > .bt-blu {
   min-width: 90px;
   min-height: 40px;
