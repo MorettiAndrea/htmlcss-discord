@@ -166,6 +166,8 @@ li {
 
 .reverse-table > .layout-tabella-grande {
   background-image: url(./imgs/item2.svg);
+  background-position: 23%;
+  background-size: 108%;
 }
 /* fine seconda tabella */
 
