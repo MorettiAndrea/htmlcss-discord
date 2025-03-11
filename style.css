@@ -12,9 +12,6 @@ img {
 ul {
   list-style-type: none;
 }
-li {
-  display: inline-block;
-}
 /* /setup generali */
 
 /* utility */
@@ -49,8 +46,8 @@ li {
   align-self: center;
 }
 .bt-piccolo {
-  min-width: 70px;
-  min-height: 30px;
+  min-width: 90px;
+  min-height: 40px;
   border-radius: 20px;
   text-align: center;
   border: 1px solid black;
@@ -63,13 +60,30 @@ li {
   background-color: black;
 }
 .bt-bianco {
-  min-width: 130px;
-  min-height: 30px;
+  min-width: 160px;
+  min-height: 40px;
   border-radius: 20px;
+  color: black;
+}
+.bt-blu {
+  min-width: 160px;
+  min-height: 40px;
+  border-radius: 20px;
+  background-color: #628cf7;
+  color: white;
 }
 h2 {
   padding-bottom: 35px;
   font-size: 2.4rem;
+}
+p {
+  font-size: 1.2rem;
+}
+.immagine-avventura {
+  display: block;
+}
+.scritte-blu {
+  color: #628cf7;
 }
 /* /utility */
 
@@ -86,8 +100,6 @@ header .header-top {
   align-items: center;
 }
 .header-top > * {
-  background-color: #d9a71d;
-  border: 2px dashed black;
   width: 100%;
   height: 40px;
   align-self: center;
@@ -96,6 +108,11 @@ header .header-top {
 
 header .header-top .box-link {
   text-align: center;
+  min-width: 600px;
+}
+.box-link > ul > li {
+  display: inline-block;
+  padding: 0 15px;
 }
 header .header-top .box-login {
   text-align: right;
@@ -122,6 +139,9 @@ header .header-top .box-login {
   justify-items: center;
   align-items: center;
   flex-direction: column;
+}
+li {
+  color: white;
 }
 
 /* fine header */
@@ -165,10 +185,24 @@ header .header-top .box-login {
   height: 1000px;
 }
 .tabella-gigante {
+  padding-top: 100px;
+  text-align: center;
   width: 1200px;
   height: 900px;
-  background-color: #218b21;
   align-self: center;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.background-stelline {
+  background-image: url(./imgs/stars.svg);
+  background-size: 100%;
+  background-position-x: 0%;
+  background-position-y: 0%;
 }
 /* fine quarta tabella     fine main */
 
@@ -180,23 +214,24 @@ footer {
 
 .sectionated-table {
   height: 850px;
-  width: 100%;
   padding-bottom: 10px;
   border-bottom: 2px solid cadetblue;
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.sectionated-table > .layout-tabella-grande {
-  width: 370px;
+.tabella-sezionata-grande {
+  width: 360px;
   height: 680px;
-  background-color: #f08180;
-  border: 2px dashed black;
 }
-.sectionated-table > .layout-tabella-piccola {
+.tabella-sezionata-piccola {
   width: 210px;
   height: 680px;
-  background-color: #20b3aa;
-  border: 2px dashed white;
+}
+.tabella-sezionata-piccola > ul > li {
+  padding: 10px 0;
 }
 .footer-bottom {
   margin-top: 40px;
