@@ -66,12 +66,16 @@ li {
   min-height: 30px;
   border-radius: 20px;
 }
+h2 {
+  padding-bottom: 35px;
+  font-size: 2.4rem;
+}
 /* /utility */
 
 /* header */
 header {
   min-height: 90px;
-  background-color: #3e4ba8;
+  background-color: #265ee9;
 }
 header .header-top {
   display: flex;
@@ -103,7 +107,6 @@ header .header-top .box-login {
   height: 500px;
   display: flex;
   justify-content: center;
-  border: 1px solid black;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -126,11 +129,12 @@ header .header-top .box-login {
 
 /* prima tabella */
 .top-main > .layout-tabella-grande {
-  background-position: 100%;
-  background-size: 105%;
+  background-image: url(./imgs/item1.svg);
+  background-size: 100px;
+  background-position: 0;
 }
 .top-main > .layout-tabella-piccola {
-  background-color: #ffbdc6;
+  padding-top: 45px;
 }
 
 /* fine prima tabella */
@@ -139,15 +143,12 @@ header .header-top .box-login {
 .reverse-table {
   background-color: #d3d3d3;
 }
-.reverse-table * {
-  border: 2px dashed black;
-}
 
 .reverse-table > .layout-tabella-piccola {
-  background-color: #1e90ff;
+  padding-top: 45px;
 }
 .reverse-table > .layout-tabella-grande {
-  background-color: #ffbdc6;
+  background-image: url(./imgs/item2.svg);
 }
 /* fine seconda tabella */
 
