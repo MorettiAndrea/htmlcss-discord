@@ -113,6 +113,9 @@ header .header-top .box-link {
   display: inline-block;
   padding: 0 15px;
 }
+.box-link > ul > li > a {
+  color: white;
+}
 header .header-top .box-login {
   text-align: right;
 }
@@ -227,6 +230,10 @@ footer {
 .tabella-sezionata-piccola {
   width: 210px;
   height: 680px;
+}
+.tabella-sezionata-piccola > ul > li > a {
+  color: white;
+  padding: 10px 0;
 }
 .tabella-sezionata-piccola > ul > li {
   padding: 10px 0;
